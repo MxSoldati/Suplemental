@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="Suplemental te ayuda a elegir los suplementos correctos según tu objetivo personal.">
+    <title>Suplemental | Alcanza tu Objetivo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    
+    <nav class="navbar">
+        <div class="container nav-container">
+            <div class="logo">SUPLEMENTAL</div>
+            <ul class="nav-links">
+                <li><a href="#" id="link-home" class="active">Inicio</a></li>
+                <li><a href="#" id="link-products">Productos</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main id="app-container">
+        
+        <!-- HOME VIEW -->
+        <section id="view-home" class="view active">
+            
+            <header class="hero">
+                <div class="container">
+                    <h1 class="hero-title">¿Qué objetivo querés lograr?</h1>
+                    <p class="hero-subtitle">En Suplemental te ayudamos a elegir los suplementos correctos según tu objetivo.</p>
+                </div>
+            </header>
+
+            <section class="objectives-section">
+                <div class="container">
+                    <div class="objectives-grid">
+                        <button class="card-objective" data-target="masa">
+                            <div class="card-content">
+                                <h3>Aumentar masa muscular</h3>
+                                <div class="card-arrow">→</div>
+                            </div>
+                        </button>
+                        <button class="card-objective" data-target="definicion">
+                            <div class="card-content">
+                                <h3>Definición / quema de grasa</h3>
+                                <div class="card-arrow">→</div>
+                            </div>
+                        </button>
+                        <button class="card-objective" data-target="energia">
+                            <div class="card-content">
+                                <h3>Energía y rendimiento</h3>
+                                <div class="card-arrow">→</div>
+                            </div>
+                        </button>
+                        <button class="card-objective" data-target="recuperacion">
+                            <div class="card-content">
+                                <h3>Recuperación y descanso</h3>
+                                <div class="card-arrow">→</div>
+                            </div>
+                        </button>
+                        <button class="card-objective" data-target="salud">
+                            <div class="card-content">
+                                <h3>Salud y bienestar</h3>
+                                <div class="card-arrow">→</div>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Premium Product Showcase -->
+            <section class="products-showcase">
+                <div class="container">
+                    <h2 class="showcase-title">Productos Destacados</h2>
+                    <div class="products-grid">
+                        <div class="product-card">
+                            <div class="product-img-wrapper">
+                                <img src="img-imp/whey_protein.jpg" alt="Whey Protein 7900 Vainilla">
+                            </div>
+                            <div class="product-info">
+                                <h3>Whey Protein 7900</h3>
+                                <p>Proteína de suero ideal para recuperación y masa muscular.</p>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="product-img-wrapper">
+                                <img src="img-imp/creatina.png" alt="Creatina Monohidratada">
+                            </div>
+                            <div class="product-info">
+                                <h3>Creatina Pura</h3>
+                                <p>Aumenta tu fuerza, potencia y rendimiento en cada entrenamiento.</p>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="product-img-wrapper">
+                                <img src="img-imp/resveratrol.webp" alt="Resveratrol 500">
+                            </div>
+                            <div class="product-info">
+                                <h3>Resveratrol 500</h3>
+                                <p>Antioxidante premium para soporte y bienestar general diario.</p>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="product-img-wrapper">
+                                <img src="img-imp/botella.webp" alt="Botella Premium">
+                            </div>
+                            <div class="product-info">
+                                <h3>Botella Premium</h3>
+                                <p>La compañía perfecta y resistente para tu hidratación diaria.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div style="text-align: center; margin-top: 40px;">
+                        <button id="btn-view-all" class="btn-cta" style="animation: none;">Ver todos los productos</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Brand Concept -->
+            <section class="concept-section">
+                <div class="container">
+                    <h2 class="concept-message">"En Suplemental no vendemos suplementos al azar, te ayudamos a elegir lo que realmente necesitás según tu objetivo."</h2>
+                </div>
+            </section>
+
+        </section>
+
+        <!-- DYNAMIC OBJECTIVE VIEW -->
+        <section id="view-objective" class="view">
+            <div class="container">
+                <button class="btn-back" id="btn-back">
+                    <span class="icon">←</span> Volver a objetivos
+                </button>
+                
+                <div id="objective-dynamic-content" class="objective-content">
+                    <!-- Javascript will inject the content here -->
+                </div>
+            </div>
+        </section>
+
+        <!-- PRODUCTS VIEW -->
+        <section id="view-products" class="view">
+            <div class="container">
+                <header class="products-header">
+                    <h2>Catálogo de Productos</h2>
+                    <p>Encuentra todo lo que necesitas para tu entrenamiento</p>
+                </header>
+
+                <div class="filters-container">
+                    <!-- Brand Filters -->
+                    <div class="filter-group">
+                        <span class="filter-label">Marca:</span>
+                        <div class="filter-buttons" id="brand-filters">
+                            <button class="filter-btn active" data-filter="all">Todas</button>
+                            <button class="filter-btn" data-filter="Star Nutrition">Star Nutrition</button>
+                            <button class="filter-btn" data-filter="Body Advance">Body Advance</button>
+                        </div>
+                    </div>
+
+                    <!-- Category Filters -->
+                    <div class="filter-group">
+                        <span class="filter-label">Categoría:</span>
+                        <div class="filter-buttons" id="category-filters">
+                            <button class="filter-btn active" data-filter="all">Todas</button>
+                            <button class="filter-btn" data-filter="proteina">Proteínas</button>
+                            <button class="filter-btn" data-filter="creatina">Creatinas</button>
+                            <button class="filter-btn" data-filter="aminoacidos">Aminoácidos</button>
+                            <button class="filter-btn" data-filter="energia">Energía / Pre-entreno</button>
+                            <button class="filter-btn" data-filter="salud">Salud / Bienestar</button>
+                            <button class="filter-btn" data-filter="accesorios">Accesorios</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Products Grid -->
+                <div id="catalog-grid" class="products-grid catalog-mode">
+                    <!-- Javascript will inject the product cards here -->
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Suplemental. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/data.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
