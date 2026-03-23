@@ -80,11 +80,11 @@ const productsData = [
         name: "Creatina",
         category: "creatina",
         variants: [
-            { code: "A001", size: "300g", flavor: "Neutro", price: 27500, originalName: "Creatina 300 gramos" },
-            { code: "A002", size: "300g", flavor: "Frutos Rojos", price: 26500, originalName: "Creatina 300 gramos - frutos rojos" },
-            { code: "A003", size: "150g", flavor: "Neutro", price: 20000, originalName: "Creatina 150 gramos" },
-            { code: "A004", size: "500g", flavor: "Neutro", price: null, originalName: "Creatina 500 gramos" },
-            { code: "A005", size: "1kg", flavor: "Neutro", price: 80000, originalName: "Creatina 1 kg" }
+            { code: "A001", size: "300g", flavor: "Neutro", price: 27500, originalName: "Creatina 300 gramos", image: "img/todas/A001.webp" },
+            { code: "A002", size: "300g", flavor: "Frutos Rojos", price: 26500, originalName: "Creatina 300 gramos - frutos rojos", image: "img/todas/A002.webp" },
+            { code: "A003", size: "150g", flavor: "Neutro", price: 20000, originalName: "Creatina 150 gramos", image: "img/todas/A003.webp" },
+            { code: "A004", size: "500g", flavor: "Neutro", price: null, originalName: "Creatina 500 gramos", image: "img/todas/A004.webp" },
+            { code: "A005", size: "1kg", flavor: "Neutro", price: 80000, originalName: "Creatina 1 kg", image: "img/todas/A005.webp" }
         ]
     },
     {
@@ -93,14 +93,14 @@ const productsData = [
         name: "Whey Protein",
         category: "proteina",
         variants: [
-            { code: "A006", size: "2 lbs", flavor: "Vainilla", price: 47000, originalName: "Whey Protein 2 libras - vainilla" },
-            { code: "A007", size: "2 lbs", flavor: "Chocolate", price: 47000, originalName: "Whey Protein 2 libras - chocolate" },
-            { code: "A008", size: "2 lbs", flavor: "Cookies", price: 47000, originalName: "Whey Protein 2 libras - cookies" },
-            { code: "A009", size: "2 lbs", flavor: "Frutilla", price: 47000, originalName: "Whey Protein 2 libras - frutilla" },
-            { code: "A010", size: "2 lbs (Tarro)", flavor: "Vainilla", price: 52000, originalName: "Whey Protein 2 libras - tarro - vainilla" },
-            { code: "A011", size: "2 lbs (Tarro)", flavor: "Chocolate", price: 52000, originalName: "Whey Protein 2 libras - tarro - chocolate" },
-            { code: "A012", size: "3 kg", flavor: "Vainilla", price: 142000, originalName: "Whey Protein 3 kg - vainilla" },
-            { code: "A013", size: "3 kg", flavor: "Chocolate", price: 142000, originalName: "Whey Protein 3 kg - chocolate", image: "img-imp/creatina.png" }
+            { code: "A006", size: "2 lbs", flavor: "Vainilla", price: 47000, originalName: "Whey Protein 2 libras - vainilla", image: "img/todas/A006.webp" },
+            { code: "A007", size: "2 lbs", flavor: "Chocolate", price: 47000, originalName: "Whey Protein 2 libras - chocolate", image: "img/todas/A007.webp" },
+            { code: "A008", size: "2 lbs", flavor: "Cookies", price: 47000, originalName: "Whey Protein 2 libras - cookies", image: "img/todas/A008.webp" },
+            { code: "A009", size: "2 lbs", flavor: "Frutilla", price: 47000, originalName: "Whey Protein 2 libras - frutilla", image: "img/todas/A009.webp" },
+            { code: "A010", size: "2 lbs (Tarro)", flavor: "Vainilla", price: 52000, originalName: "Whey Protein 2 libras - tarro - vainilla", image: "img/todas/A010.webp" },
+            { code: "A011", size: "2 lbs (Tarro)", flavor: "Chocolate", price: 52000, originalName: "Whey Protein 2 libras - tarro - chocolate", image: "img/todas/A011.webp" },
+            { code: "A012", size: "3 kg", flavor: "Vainilla", price: 142000, originalName: "Whey Protein 3 kg - vainilla", image: "img/todas/A012.webp" },
+            { code: "A013", size: "3 kg", flavor: "Chocolate", price: 142000, originalName: "Whey Protein 3 kg - chocolate", image: "img/todas/A013.webp" }
         ]
     },
     {
@@ -109,8 +109,8 @@ const productsData = [
         name: "Whey Protein Collagen",
         category: "proteina",
         variants: [
-            { code: "A014", size: "2 lbs", flavor: "Vainilla", price: 45000, originalName: "Whey Protein Collagen 2 libras - vainilla" },
-            { code: "A015", size: "2 lbs", flavor: "Chocolate", price: 45000, originalName: "Whey Protein Collagen 2 libras - chocolate" }
+            { code: "A014", size: "2 lbs", flavor: "Vainilla", price: 45000, originalName: "Whey Protein Collagen 2 libras - vainilla", image: "img/todas/A014.webp" },
+            { code: "A015", size: "2 lbs", flavor: "Chocolate", price: 45000, originalName: "Whey Protein Collagen 2 libras - chocolate", image: "img/todas/A015.webp" }
         ]
     },
     {
@@ -119,8 +119,8 @@ const productsData = [
         name: "Mutant Mass",
         category: "proteina",
         variants: [
-            { code: "A016", size: "1.5 kg", flavor: "Vainilla", price: 38500, originalName: "Mutant Mass 1,5 kg - vainilla" },
-            { code: "A017", size: "1.5 kg", flavor: "Chocolate", price: 38500, originalName: "Mutant Mass 1,5 kg - chocolate" }
+            { code: "A016", size: "1.5 kg", flavor: "Vainilla", price: 38500, originalName: "Mutant Mass 1,5 kg - vainilla", image: "img/todas/A016.webp" },
+            { code: "A017", size: "1.5 kg", flavor: "Chocolate", price: 38500, originalName: "Mutant Mass 1,5 kg - chocolate", image: "img/todas/A017.webp" }
         ]
     },
     {
@@ -129,7 +129,7 @@ const productsData = [
         name: "Magnesio",
         category: "salud",
         variants: [
-            { code: "A018", size: "60 caps", flavor: "Único", price: 15500, originalName: "Magnesio 60 cápsulas" }
+            { code: "A018", size: "60 caps", flavor: "Único", price: 15500, originalName: "Magnesio 60 cápsulas", image: "img/todas/A018.webp" }
         ]
     },
     {
@@ -138,8 +138,8 @@ const productsData = [
         name: "Colágeno",
         category: "salud",
         variants: [
-            { code: "A019", size: "210g", flavor: "Limón", price: 21500, originalName: "Colágeno 210 gramos - limón" },
-            { code: "A020", size: "210g", flavor: "Frutos Rojos", price: 21500, originalName: "Colágeno 210 gramos - frutos rojos" }
+            { code: "A019", size: "210g", flavor: "Limón", price: 21500, originalName: "Colágeno 210 gramos - limón", image: "img/todas/A019.webp" },
+            { code: "A020", size: "210g", flavor: "Frutos Rojos", price: 21500, originalName: "Colágeno 210 gramos - frutos rojos", image: "img/todas/A020.webp" }
         ]
     },
     {
@@ -148,8 +148,8 @@ const productsData = [
         name: "V8 Pump",
         category: "energia",
         variants: [
-            { code: "A021", size: "Único", flavor: "Sandía", price: 35000, originalName: "V8 Pump - sandía" },
-            { code: "A022", size: "Único", flavor: "Acai", price: 35000, originalName: "V8 Pump - acai" }
+            { code: "A021", size: "Único", flavor: "Sandía", price: 35000, originalName: "V8 Pump - sandía", image: "img/todas/A021.webp" },
+            { code: "A022", size: "Único", flavor: "Acai", price: 35000, originalName: "V8 Pump - acai", image: "img/todas/A022.webp" }
         ]
     },
     {
@@ -158,7 +158,7 @@ const productsData = [
         name: "Omega 3",
         category: "salud",
         variants: [
-            { code: "A023", size: "60 caps", flavor: "Único", price: 35900, originalName: "Omega 3 60 cápsulas" }
+            { code: "A023", size: "60 caps", flavor: "Único", price: 35900, originalName: "Omega 3 60 cápsulas", image: "img/todas/A023.webp" }
         ]
     },
     {
@@ -167,7 +167,7 @@ const productsData = [
         name: "ZMA",
         category: "salud",
         variants: [
-            { code: "A024", size: "90 caps", flavor: "Único", price: 18300, originalName: "ZMA 90 cápsulas" }
+            { code: "A024", size: "90 caps", flavor: "Único", price: 18300, originalName: "ZMA 90 cápsulas", image: "img/todas/A024.webp" }
         ]
     },
     {
@@ -176,8 +176,8 @@ const productsData = [
         name: "Glutamina",
         category: "aminoacidos",
         variants: [
-            { code: "A025", size: "150g", flavor: "Neutro", price: null, originalName: "Glutamina 150 gramos" },
-            { code: "A026", size: "300g", flavor: "Neutro", price: 32300, originalName: "Glutamina 300 gramos" }
+            { code: "A025", size: "150g", flavor: "Neutro", price: null, originalName: "Glutamina 150 gramos", image: "img/todas/A025(falta).webp" },
+            { code: "A026", size: "300g", flavor: "Neutro", price: 32300, originalName: "Glutamina 300 gramos", image: "img/todas/A026.webp" }
         ]
     },
     {
@@ -186,7 +186,7 @@ const productsData = [
         name: "Resveratrol",
         category: "salud",
         variants: [
-            { code: "A027", size: "60 caps", flavor: "Único", price: 23500, originalName: "Resveratrol 60 cápsulas" }
+            { code: "A027", size: "60 caps", flavor: "Único", price: 23500, originalName: "Resveratrol 60 cápsulas", image: "img/todas/A027.webp" }
         ]
     },
     {
@@ -195,7 +195,7 @@ const productsData = [
         name: "BCAA",
         category: "aminoacidos",
         variants: [
-            { code: "A028", size: "120 caps", flavor: "Único", price: 19200, originalName: "BCAA 120 cápsulas" }
+            { code: "A028", size: "120 caps", flavor: "Único", price: 19200, originalName: "BCAA 120 cápsulas", image: "img/todas/A028.webp" }
         ]
     },
     {
@@ -204,8 +204,8 @@ const productsData = [
         name: "Botella",
         category: "accesorios",
         variants: [
-            { code: "A029", size: "Premium", flavor: "Único", price: 16000, originalName: "Botella Premium" },
-            { code: "A030", size: "Básica", flavor: "Único", price: 5500, originalName: "Botella Básica" }
+            { code: "A029", size: "Premium", flavor: "Único", price: 16000, originalName: "Botella Premium", image: "img/Accesorios/A029(1).webp" },
+            { code: "A030", size: "Básica", flavor: "Único", price: 5500, originalName: "Botella Básica", image: "img/Accesorios/A030(1).jpg" }
         ]
     },
     {
@@ -214,7 +214,7 @@ const productsData = [
         name: "Creatina",
         category: "creatina",
         variants: [
-            { code: "B001", size: "150g", flavor: "Neutro", price: 12400, originalName: "Creatina 150 gramos" }
+            { code: "B001", size: "150g", flavor: "Neutro", price: 12400, originalName: "Creatina 150 gramos", image: "img/todas/B001.webp" }
         ]
     },
     {
@@ -223,9 +223,9 @@ const productsData = [
         name: "Whey Protein",
         category: "proteina",
         variants: [
-            { code: "B002", size: "910g", flavor: "Vainilla", price: 25000, originalName: "Whey Protein 910 gramos - vainilla" },
-            { code: "B003", size: "910g", flavor: "Chocolate", price: 25000, originalName: "Whey Protein 910 gramos - chocolate" },
-            { code: "B004", size: "3 kg", flavor: "Único", price: 68500, originalName: "Whey Protein 3 kg" }
+            { code: "B002", size: "910g", flavor: "Vainilla", price: 25000, originalName: "Whey Protein 910 gramos - vainilla", image: "img/todas/B002.webp" },
+            { code: "B003", size: "910g", flavor: "Chocolate", price: 25000, originalName: "Whey Protein 910 gramos - chocolate", image: "img/todas/B003.webp" },
+            { code: "B004", size: "3 kg", flavor: "Único", price: 68500, originalName: "Whey Protein 3 kg", image: "img/todas/B004 (chocolate).webp" }
         ]
     },
     {
@@ -234,8 +234,8 @@ const productsData = [
         name: "Testo",
         category: "energia",
         variants: [
-            { code: "B005", size: "240g", flavor: "Uva", price: 20000, originalName: "Testo 240 gramos - Uva" },
-            { code: "B006", size: "240g", flavor: "Neutro", price: null, originalName: "Testo 240 gramos - .." }
+            { code: "B005", size: "240g", flavor: "Uva", price: 20000, originalName: "Testo 240 gramos - Uva", image: "img/todas/B005.webp" },
+            { code: "B006", size: "240g", flavor: "Neutro", price: null, originalName: "Testo 240 gramos - ..", image: "img/todas/B006.webp" }
         ]
     },
     {
@@ -244,8 +244,8 @@ const productsData = [
         name: "EEAA - Aminoácidos esenciales",
         category: "aminoacidos",
         variants: [
-            { code: "B007", size: "Único", flavor: "Uva", price: 21000, originalName: "EEAA - Aminoácidos esenciales - Uva" },
-            { code: "B008", size: "Único", flavor: "Melón", price: 21000, originalName: "EEAA - Aminoácidos esenciales - Melón" }
+            { code: "B007", size: "Único", flavor: "Uva", price: 21000, originalName: "EEAA - Aminoácidos esenciales - Uva", image: "img/todas/B007.webp" },
+            { code: "B008", size: "Único", flavor: "Melón", price: 21000, originalName: "EEAA - Aminoácidos esenciales - Melón", image: "img/todas/B008...webp" }
         ]
     },
     {
@@ -254,7 +254,7 @@ const productsData = [
         name: "Magnesio Citrato",
         category: "salud",
         variants: [
-            { code: "B009", size: "175g", flavor: "Único", price: 13000, originalName: "Magnesio Citrato 175 gramos" }
+            { code: "B009", size: "175g", flavor: "Único", price: 13000, originalName: "Magnesio Citrato 175 gramos", image: "img/todas/B009.webp" }
         ]
     },
     {
@@ -263,7 +263,7 @@ const productsData = [
         name: "Nitrix Bomb",
         category: "energia",
         variants: [
-            { code: "B010", size: "90 comp", flavor: "Único", price: 9500, originalName: "Nitrix Bomb 90 comprimidos" }
+            { code: "B010", size: "90 comp", flavor: "Único", price: 9500, originalName: "Nitrix Bomb 90 comprimidos", image: "img/todas/B010.webp" }
         ]
     },
     {
@@ -272,7 +272,7 @@ const productsData = [
         name: "Multivitaminico",
         category: "salud",
         variants: [
-            { code: "B011", size: "60 comp", flavor: "Único", price: 9500, originalName: "Multivitaminico 60 comprimidos" }
+            { code: "B011", size: "60 comp", flavor: "Único", price: 9500, originalName: "Multivitaminico 60 comprimidos", image: "img/todas/B011.webp" }
         ]
     }
 ];
